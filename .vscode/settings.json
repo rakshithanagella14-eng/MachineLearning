@@ -1,0 +1,4 @@
+{
+    "chat.disableAIFeatures": false,
+    "github.copilot.chat.alternateGptPrompt.enabled": true
+}
