@@ -1,0 +1,61 @@
+match_id,season,venue,team1,team2,toss_winner,toss_decision,winner,win_margin_type,win_margin
+1,2024,Narendra Modi Stadium,Chennai Super Kings,Mumbai Indians,Chennai Super Kings,bat,Chennai Super Kings,runs,44
+2,2024,M. A. Chidambaram Stadium,Punjab Kings,Chennai Super Kings,Punjab Kings,bat,Punjab Kings,wickets,1
+3,2023,M. Chinnaswamy Stadium,Punjab Kings,Mumbai Indians,Punjab Kings,field,Punjab Kings,wickets,9
+4,2022,M. A. Chidambaram Stadium,Punjab Kings,Royal Challengers Bangalore,Royal Challengers Bangalore,field,Punjab Kings,runs,26
+5,2023,Arun Jaitley Stadium,Kolkata Knight Riders,Delhi Capitals,Kolkata Knight Riders,bat,Kolkata Knight Riders,wickets,4
+6,2022,Arun Jaitley Stadium,Chennai Super Kings,Mumbai Indians,Mumbai Indians,bat,Chennai Super Kings,wickets,2
+7,2022,M. A. Chidambaram Stadium,Sunrisers Hyderabad,Rajasthan Royals,Rajasthan Royals,field,Sunrisers Hyderabad,wickets,5
+8,2023,Narendra Modi Stadium,Chennai Super Kings,Mumbai Indians,Mumbai Indians,field,Chennai Super Kings,wickets,5
+9,2025,Wankhede Stadium,Chennai Super Kings,Punjab Kings,Punjab Kings,field,Chennai Super Kings,wickets,4
+10,2023,M. A. Chidambaram Stadium,Rajasthan Royals,Delhi Capitals,Rajasthan Royals,bat,Delhi Capitals,wickets,9
+11,2025,M. A. Chidambaram Stadium,Kolkata Knight Riders,Delhi Capitals,Kolkata Knight Riders,field,Kolkata Knight Riders,runs,37
+12,2025,M. A. Chidambaram Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,field,Royal Challengers Bangalore,wickets,7
+13,2023,M. A. Chidambaram Stadium,Rajasthan Royals,Royal Challengers Bangalore,Royal Challengers Bangalore,bat,Rajasthan Royals,wickets,1
+14,2023,Narendra Modi Stadium,Punjab Kings,Delhi Capitals,Punjab Kings,field,Punjab Kings,runs,8
+15,2024,Wankhede Stadium,Mumbai Indians,Kolkata Knight Riders,Kolkata Knight Riders,bat,Mumbai Indians,runs,14
+16,2025,M. Chinnaswamy Stadium,Kolkata Knight Riders,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Kolkata Knight Riders,runs,19
+17,2022,M. Chinnaswamy Stadium,Sunrisers Hyderabad,Delhi Capitals,Delhi Capitals,bat,Delhi Capitals,wickets,7
+18,2023,Eden Gardens,Rajasthan Royals,Mumbai Indians,Rajasthan Royals,field,Mumbai Indians,wickets,5
+19,2024,Narendra Modi Stadium,Sunrisers Hyderabad,Mumbai Indians,Mumbai Indians,bat,Mumbai Indians,wickets,6
+20,2025,M. A. Chidambaram Stadium,Mumbai Indians,Royal Challengers Bangalore,Mumbai Indians,bat,Royal Challengers Bangalore,wickets,2
+21,2023,M. Chinnaswamy Stadium,Royal Challengers Bangalore,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Sunrisers Hyderabad,wickets,8
+22,2022,Eden Gardens,Rajasthan Royals,Punjab Kings,Punjab Kings,bat,Rajasthan Royals,wickets,2
+23,2024,Eden Gardens,Kolkata Knight Riders,Delhi Capitals,Delhi Capitals,field,Kolkata Knight Riders,runs,23
+24,2024,Eden Gardens,Chennai Super Kings,Rajasthan Royals,Rajasthan Royals,field,Chennai Super Kings,wickets,9
+25,2022,Arun Jaitley Stadium,Mumbai Indians,Punjab Kings,Punjab Kings,field,Punjab Kings,runs,19
+26,2023,Narendra Modi Stadium,Delhi Capitals,Kolkata Knight Riders,Kolkata Knight Riders,field,Kolkata Knight Riders,wickets,3
+27,2023,Wankhede Stadium,Chennai Super Kings,Mumbai Indians,Chennai Super Kings,field,Mumbai Indians,wickets,3
+28,2022,Narendra Modi Stadium,Kolkata Knight Riders,Delhi Capitals,Delhi Capitals,field,Kolkata Knight Riders,wickets,6
+29,2023,M. A. Chidambaram Stadium,Royal Challengers Bangalore,Mumbai Indians,Royal Challengers Bangalore,bat,Royal Challengers Bangalore,wickets,8
+30,2024,Narendra Modi Stadium,Kolkata Knight Riders,Chennai Super Kings,Kolkata Knight Riders,bat,Chennai Super Kings,runs,22
+31,2023,M. Chinnaswamy Stadium,Royal Challengers Bangalore,Chennai Super Kings,Chennai Super Kings,field,Chennai Super Kings,wickets,3
+32,2022,Narendra Modi Stadium,Punjab Kings,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,runs,59
+33,2025,M. Chinnaswamy Stadium,Royal Challengers Bangalore,Rajasthan Royals,Royal Challengers Bangalore,bat,Rajasthan Royals,wickets,7
+34,2024,Wankhede Stadium,Mumbai Indians,Kolkata Knight Riders,Kolkata Knight Riders,bat,Kolkata Knight Riders,runs,56
+35,2022,Eden Gardens,Punjab Kings,Chennai Super Kings,Chennai Super Kings,bat,Punjab Kings,wickets,2
+36,2022,Arun Jaitley Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,field,Sunrisers Hyderabad,wickets,2
+37,2023,M. Chinnaswamy Stadium,Mumbai Indians,Sunrisers Hyderabad,Sunrisers Hyderabad,bat,Mumbai Indians,wickets,5
+38,2025,Narendra Modi Stadium,Chennai Super Kings,Sunrisers Hyderabad,Sunrisers Hyderabad,bat,Chennai Super Kings,wickets,3
+39,2025,M. A. Chidambaram Stadium,Mumbai Indians,Rajasthan Royals,Rajasthan Royals,field,Mumbai Indians,runs,36
+40,2024,M. A. Chidambaram Stadium,Punjab Kings,Delhi Capitals,Punjab Kings,bat,Punjab Kings,runs,25
+41,2022,Narendra Modi Stadium,Chennai Super Kings,Mumbai Indians,Chennai Super Kings,field,Mumbai Indians,wickets,9
+42,2024,Arun Jaitley Stadium,Chennai Super Kings,Royal Challengers Bangalore,Royal Challengers Bangalore,bat,Chennai Super Kings,runs,50
+43,2024,Arun Jaitley Stadium,Punjab Kings,Royal Challengers Bangalore,Royal Challengers Bangalore,bat,Punjab Kings,wickets,1
+44,2025,Wankhede Stadium,Royal Challengers Bangalore,Delhi Capitals,Delhi Capitals,bat,Delhi Capitals,runs,6
+45,2022,Wankhede Stadium,Mumbai Indians,Royal Challengers Bangalore,Mumbai Indians,field,Mumbai Indians,wickets,6
+46,2023,Eden Gardens,Royal Challengers Bangalore,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,runs,52
+47,2025,M. A. Chidambaram Stadium,Kolkata Knight Riders,Mumbai Indians,Mumbai Indians,bat,Kolkata Knight Riders,wickets,2
+48,2022,Arun Jaitley Stadium,Rajasthan Royals,Punjab Kings,Rajasthan Royals,field,Punjab Kings,wickets,7
+49,2025,Eden Gardens,Chennai Super Kings,Punjab Kings,Punjab Kings,bat,Punjab Kings,wickets,6
+50,2022,M. Chinnaswamy Stadium,Sunrisers Hyderabad,Kolkata Knight Riders,Kolkata Knight Riders,field,Kolkata Knight Riders,runs,7
+51,2024,Wankhede Stadium,Delhi Capitals,Royal Challengers Bangalore,Royal Challengers Bangalore,bat,Royal Challengers Bangalore,runs,42
+52,2025,M. A. Chidambaram Stadium,Sunrisers Hyderabad,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,wickets,9
+53,2024,Wankhede Stadium,Rajasthan Royals,Kolkata Knight Riders,Kolkata Knight Riders,bat,Kolkata Knight Riders,runs,25
+54,2023,Narendra Modi Stadium,Royal Challengers Bangalore,Sunrisers Hyderabad,Royal Challengers Bangalore,field,Royal Challengers Bangalore,runs,39
+55,2022,Eden Gardens,Royal Challengers Bangalore,Sunrisers Hyderabad,Royal Challengers Bangalore,field,Sunrisers Hyderabad,wickets,1
+56,2023,Wankhede Stadium,Rajasthan Royals,Sunrisers Hyderabad,Rajasthan Royals,bat,Sunrisers Hyderabad,runs,8
+57,2022,M. Chinnaswamy Stadium,Royal Challengers Bangalore,Kolkata Knight Riders,Royal Challengers Bangalore,bat,Royal Challengers Bangalore,wickets,5
+58,2023,M. Chinnaswamy Stadium,Rajasthan Royals,Punjab Kings,Punjab Kings,field,Rajasthan Royals,wickets,4
+59,2025,Arun Jaitley Stadium,Rajasthan Royals,Kolkata Knight Riders,Kolkata Knight Riders,field,Kolkata Knight Riders,wickets,6
+60,2023,M. A. Chidambaram Stadium,Mumbai Indians,Punjab Kings,Punjab Kings,bat,Mumbai Indians,runs,45

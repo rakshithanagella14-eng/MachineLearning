@@ -28,18 +28,15 @@ if runs_col:
 # ── 2. Batting Stats ──────────────────────────────────
 if runs_col and batsman_col and match_col:
     print("\n2️⃣  TOP BATSMEN STATS")
-    agg_dict = {
-        'Runs': (runs_col, 'sum'),
-        'Balls': (runs_col, 'count'),
-    }
-    if 'is_four' in df.columns:
-        agg_dict['Fours'] = ('is_four', 'sum')
-    if 'is_six' in df.columns:
-        agg_dict['Sixes'] = ('is_six', 'sum')
-    bat = df.groupby(batsman_col).agg(**agg_dict).reset_index()
+    bat = df.groupby(batsman_col).agg(
+        Runs=(runs_col, 'sum'),
+        Balls=(runs_col, 'count'),
+        Fours=('is_four', 'sum') if 'is_four' in df.columns else (runs_col, 'count'),
+        Sixes=('is_six', 'sum') if 'is_six' in df.columns else (runs_col, 'count'),
+    ).reset_index()
     bat['Strike_Rate'] = (bat['Runs'] / bat['Balls'] * 100).round(1)
     bat = bat[bat['Balls'] >= 100].sort_values('Runs', ascending=False).head(10)
-    print(bat[[batsman_col, 'Runs', 'Balls', 'Strike_Rate']].to_string(index=False))
+    print(bat[['batsman' if 'batsman' in bat.columns else batter_col, 'Runs', 'Balls', 'Strike_Rate']].to_string(index=False))
 
 # ── 3. Bowling Stats ──────────────────────────────────
 if 'is_wicket' in df.columns and bowler_col and runs_col:
@@ -51,7 +48,7 @@ if 'is_wicket' in df.columns and bowler_col and runs_col:
     ).reset_index()
     bowl['Economy'] = (bowl['Runs_Given'] / (bowl['Balls']/6)).round(2)
     bowl = bowl[bowl['Balls'] >= 60].sort_values('Wickets', ascending=False).head(10)
-    print(bowl[[bowler_col, 'Wickets', 'Economy']].to_string(index=False))
+    print(bowl[['bowler', 'Wickets', 'Economy']].to_string(index=False))
 
 # ── 4. Phase Analysis ─────────────────────────────────
 if over_col and runs_col:
@@ -83,7 +80,7 @@ if 'dismissal_kind' in df.columns:
     for kind, count in d.items():
         print(f"   {kind:25} {count:5,}  ({count/d.sum()*100:.1f}%)")
 
-# ── 7. Most Economical Bowlers ────────────────────────
+# ── 7. Most Economical Overs Phase ───────────────────
 if over_col and runs_col and bowler_col:
     print("\n7️⃣  MOST ECONOMICAL BOWLERS (min 300 balls)")
     eco = df.groupby(bowler_col).agg(
@@ -91,6 +88,6 @@ if over_col and runs_col and bowler_col:
     eco = eco[eco['balls'] >= 300]
     eco['economy'] = (eco['runs']/(eco['balls']/6)).round(2)
     eco = eco.sort_values('economy').head(8)
-    print(eco[[bowler_col,'balls','runs','economy']].to_string(index=False))
+    print(eco[['bowler','balls','runs','economy']].to_string(index=False))
 
 print("\n✅ Statistical analysis complete!")
