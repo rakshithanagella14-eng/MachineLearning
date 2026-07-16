@@ -46,11 +46,17 @@ chart_tabs = st.tabs([
 
 # Helper utility to render images or fallbacks gracefully
 def render_project_chart(filename, fallback_text):
-    if os.path.exists(filename):
+    import os
+    cloud_path = f"ipl-project/{filename}"
+    
+    if os.path.exists(cloud_path):
+        st.image(cloud_path, use_container_width=True)
+    elif os.path.exists(filename):
         st.image(filename, use_container_width=True)
     else:
         st.info(f"📊 Chart file `{filename}` is rendering live via backend memory pipeline.")
         st.caption(f"Visualizing: {fallback_text}")
+
 
 with chart_tabs[0]:
     render_project_chart("chart1_runs_by_team.png", "Overall match wins split by participating franchise.")
